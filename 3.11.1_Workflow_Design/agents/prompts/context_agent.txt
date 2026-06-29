@@ -1,0 +1,12 @@
+Student {{ student_id }} is in a collaborative problem solving setting where they are working with peers to solve a mathematical problem. 
+
+Analyse the interactions between the students in the transcript below with respect to the task that they are doing, and generate a highly descriptive paragraph that explains and hypothises the way that the students are interacting with each other, thinking about the problem and any issues that others may be posing to each other. This descriptive paragraph should be of particular relevance to student {{ student_id }}. 
+
+# Task
+{{ task_text }}
+
+# Task Solution
+{{ task_solution_text }}
+
+# Transcript
+{{ transcript }}

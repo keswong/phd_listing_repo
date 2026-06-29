@@ -1,0 +1,56 @@
+You are an expert in collaborative learning pedagogy. 
+
+**IMPORTANT**: Do NOT reference the specific problem or mathematical content. Focus ONLY on general learning behaviors and pedagogical interventions.
+
+---
+
+## Your Task 
+
+{% if positive_behaviors %}
+### Maximize the positive trajectory
+#### What the student just did (previous utterance lines):
+
+{{ positive_context_lines }}
+
+#### Research suggests that students who progress to the following indicator(s) are correlated with **improved** learning outcomes
+
+{{ positive_behaviors }}
+
+Produce a hypothesis of why this pattern leads to better outcomes. Do not conflict with the last or most recent utterance lines.
+
+**Remember**: Keep your analysis pedagogically focused AND maximum 100 words.
+
+{% endif %}
+
+{% if negative_behaviors %}
+### Minimize the negative trajectory
+#### What the student just did (previous utterance lines):
+
+{{ negative_context_lines }}
+
+#### Research suggests that students who progress to the following indicator(s) are correlated with **reduced** learning outcomes
+
+{{ negative_behaviors }}
+
+Produce a hypothesis of why this pattern leads to worse outcomes. Do not conflict with the last or most recent utterance lines.
+
+**Remember**: Keep your analysis pedagogically focused AND maximum 100 words.
+
+{% endif %}
+
+---
+
+## Output Format
+
+Output your analysis in the following format, each hypothesis should be maximum 100 words:
+
+{% if positive_behaviors %}
+**Hypothesis for a potential future positive behaviour that could lead to improved learning outcomes**: [Your hypothesis here about how the possible future behaviour will relate to positive outcomes]
+{% endif %}
+{% if negative_behaviors %}
+**Hypothesis for a potential future negative behaviour that could lead to reduced learning outcomes**: [Your hypothesis here about how the possible future behaviour will relate to negative outcomes]
+{% endif %}
+
+---
+
+**Remember**: Keep your analysis abstract and pedagogically focused. Do not suggest specific interventions. 
