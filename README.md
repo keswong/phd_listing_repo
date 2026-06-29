@@ -1,6 +1,6 @@
 # Project Name
 
-> The codes below are the codes used to derive the relevant results of the PhD thesis, "Enhancing Teacher Interventions by Designing an Adaptive Support for Online Collaborative Problem Solving with Large Language Models"
+> The codes below are the codes used to derive the relevant results of the PhD thesis, "Enhancing Teacher Interventions by Designing an Adaptive Support for Online Collaborative Problem Solving with Large Language Models" The naming of the folders are based on the sections given in the thesis.
 
 ## Table of Contents
 - [Contact](#contact)
